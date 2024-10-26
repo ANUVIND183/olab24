@@ -9,8 +9,9 @@ public class Comic extends Book {
 	private final int ageOfMainCharacter;
 
 	// TODO Correct the error
-	public Comic(String title) {
+	public Comic(String title,int ageOfMainCharacter) {
 		this.title=title;
+		this.ageOfMainCharacter=ageOfMainCharacter;
 	}
 
 	public String getter(){
