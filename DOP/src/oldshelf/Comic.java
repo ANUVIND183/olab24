@@ -21,7 +21,7 @@ public class Comic extends Book {
 	
 	// TODO: Create a setter if required
 	public void setter(String title){
-		this.title=title
+		this.title=title;
 	}
 	// TODO: write a toString method
 	@Override
