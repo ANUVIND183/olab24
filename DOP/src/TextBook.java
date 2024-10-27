@@ -1,5 +1,5 @@
 
 // TODO: Complete this with record components
-public record TextBook() {
+public record TextBook(String title) {
 
 }
