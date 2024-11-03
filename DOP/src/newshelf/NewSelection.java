@@ -34,5 +34,6 @@ public class NewSelection {
 		// TODO: Write a test code here and execute and text.
 		TextBook t = new TextBook();
 		System.out.println(getAgeOrTitle(t));
+		System.out.println(getAgeOrTitle(null));
 	}
 }
